@@ -2,8 +2,8 @@ var game = new Phaser.Game(800, 600, Phaser.CANVAS, 'phaser-example', { preload:
 
 function preload() {
 
-    game.load.image('img/space', 'deep-space.jpg');
-    game.load.image('img/bullet', 'bullets.png');
+    game.load.image('space', 'deep-space.jpg');
+    game.load.image('bullet', 'bullets.png');
     game.load.image('ship', 'ship.png');
 
 }
